@@ -33,6 +33,23 @@ lib/
 ├── theme_provider.dart
 └── home_screen.dart
 
+## 📸 App Screenshots
+
+### 🌞 Light Mode
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ansonjoseph98/Hive-Theme-Implementation-Flutter-/c82df2083348412c1bde0507889a373a5a75763e/Screenshot_20260216-093652.png" width="300"/>
+</p>
+
+---
+
+### 🌙 Dark Mode
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ansonjoseph98/Hive-Theme-Implementation-Flutter-/c82df2083348412c1bde0507889a373a5a75763e/Screenshot_20260216-093700.png" width="300"/>
+</p>
+
+
 ## ⚙️ Packages Used
 
 ```yaml
