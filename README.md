@@ -1,21 +1,51 @@
-<<<<<<< HEAD
-# Hive-Theme-Implementation-Flutter-
-A Flutter application demonstrating dynamic Light, Dark, and System theme switching using Provider state management and Hive for local theme persistence.
-=======
-# hive_theme_implementation
+🌗 Hive Theme Implementation (Flutter)
 
-A new Flutter project.
+A Flutter application demonstrating dynamic Light, Dark, and System theme switching using **Provider** state management and **Hive** for local theme persistence.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- Light Mode
+- Dark Mode
+- System Default Mode
+- Theme persistence using Hive
+- Material 3 design
+- Clean UI with selectable theme cards
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
->>>>>>> 1154dda (theme implementation using hive)
+## 🧠 What This Project Demonstrates
+
+- State management using Provider
+- Local data persistence using Hive
+- Custom theme configuration using ThemeData
+- Dynamic UI updates using ChangeNotifier
+- Clean Flutter architecture
+
+---
+
+## 📂 Project Structure
+lib/
+│
+├── main.dart
+├── app_themes.dart
+├── theme_provider.dart
+└── home_screen.dart
+
+## ⚙️ Packages Used
+
+```yaml
+provider: ^6.0.0
+hive: ^2.2.3
+hive_flutter: ^1.1.0
+
+🛠 How It Works
+Hive initializes inside ThemeProvider.init()
+Selected theme is stored inside a Hive box
+When user selects a theme:
+ThemeMode updates
+Value is saved locally
+UI rebuilds automatically
+On app restart, saved theme loads automatically
+
